@@ -14,10 +14,6 @@ connection.query(
     function(err, results, fields) {
         var arr = [1,2,3]
         var {id,email,name,create_at} = results[0];
-        console.log(arr[0]);
-        console.log(email);
-        console.log(name)
-        console.log(create_at)
     }
 )
 
